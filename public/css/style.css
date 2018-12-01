@@ -1,0 +1,249 @@
+ body{
+    background: #f2f2f2;
+}
+
+.brand-login img{
+  border-radius: 100%;
+}
+.brand img{
+  filter: brightness(145%);
+  border-radius: 100%;
+}
+
+#login-app{
+    background: url('/img/bg2.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+#login-app footer{
+    display: none;
+}
+#login-app .description{
+    margin-top: 200px;
+    margin-bottom: 60px;
+    color: #fff;
+}
+#login-app .description h3{
+    margin-bottom: 75px;
+    line-height:40px;
+    font-size: 34px;
+}
+#login-app .description p{
+    font-size: 16px;
+}
+
+
+#login-app .card{
+    background: rgba(119,136,153, 0.35);
+    color: #f2f2f2;
+}
+#login-app .navbar-laravel{
+    background: rgba(0,0,0, 0.45)!important;
+    height: 80px;
+
+}
+
+.navbar .navbar-brand,
+.fa-book-open{
+    font-size: 25px;
+}
+
+
+.btn-link{
+    color: #fff;
+}
+li, ul, ol{
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+    color: #333;
+}
+
+h4.header-title, p.header-title{
+    text-align: center;
+}
+p.header-title{
+    margin-top: 20px;
+    margin-bottom: 60px;
+
+}
+.panel .show-section{
+    margin-bottom: 20px;
+}
+
+.name{
+    font-size: 18px;
+}
+.btn-index{
+    float: right;
+}
+.btn-profile{
+    margin-top: 30px;
+}
+.btn-primary, .btn-index{
+    background: #343a40;
+    border: none;
+    transition: all ease 500ms;
+}
+.btn-primary:hover{
+    background: #000;
+}
+.modal-header {
+    border: none;
+}
+.modal-header .close{
+    font-size: 32px;
+}
+.modal .fa-trash-alt{
+    font-size: 55px;
+    text-align: center;
+    padding: 20px;
+}
+
+.modal-footer .btn{
+    color: #fff!important;
+}
+.modal-body {
+    text-align: center;
+}
+.modal-body p{
+    font-size: 18px;
+}
+
+.btn-secondary,
+.btn-danger{
+    color: #fff!important;
+}
+
+.create-bio p.header-title{
+font-size: 16px;
+
+}
+
+.list-group-item img,
+li.list-img img{
+    border-radius: 100%;
+    width: 58px;
+    height: 58px;
+    border: 3px solid rgba(204, 204, 204, 0.45);
+}
+footer{
+    text-align: center;
+}
+
+footer{
+    color: #fff;
+    margin-bottom: -300px;
+    padding: 16px 0;
+    background: #343a40;
+}
+
+.input-group-prepend input{
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+
+@media(min-width: 960px){
+
+#login-app .card{
+    background: rgba(95, 33, 32, 0.25);
+}
+
+
+#login-app .description h3{
+        margin-top: -150px;
+        font-size: 32px;
+        line-height: 38px;
+        font-weight: bold;
+}
+
+.list-group img.img-show{
+    max-width: 550px;
+    max-height: 500px;
+    border: 3px solid rgba(204, 204, 204, 0.45);
+    border-radius: 3px;
+  }
+  .card-body-register{
+      margin-top: 250px;
+  }
+
+  .show-section{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      margin: auto;
+      width: 100%;
+      max-width: 1200px;
+      padding: 0;
+  }
+  .show-section .thumb{
+      max-width: 460px;
+      flex: 1 1 460px;
+          padding: 0;
+  }
+  .show-section .col-md-8{
+      max-width: 1200px;
+      flex: 1 1 1200px;
+      padding:  0;
+      padding-bottom: 20px;
+  }
+
+
+}
+
+.name{
+ padding-left: 10px;
+}
+
+@media(max-width: 959px){
+
+#login-app  .description{
+    margin-top: -10px;
+    height: 100vh;
+
+}
+#login-app .register-section .card{
+    margin-top: -40px;
+}
+#login-app .login-section .card{
+
+    margin-top: -500px;
+}
+
+
+#login-app .description h3{
+    font-size: 22px;
+    line-height: 26px;
+}
+
+#login-app .navbar-laravel{
+    height: auto;
+
+}
+
+
+.panel .well{
+    padding: 10px;
+}
+
+    .name{
+        font-size: 14px;
+    }
+
+    .btn-index{
+        display: block;
+        font-size: 13.5px;
+
+    }
+
+
+
+
+
+}
